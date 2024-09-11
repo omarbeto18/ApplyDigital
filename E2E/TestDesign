@@ -1,0 +1,20 @@
+TestCase Name: UserFlow End to End
+Preconditions: Web page https://automationexercise.com/ is up and running and yoou have a user to login previously created (omar/omar@mailinator.com), you have a card data to make the purchase(Name on card: Omar Valenzuela,CardNumber:4896489648964896,Expiration:07/2029,CVV:311)
+Test Steps:
+1. Go to web page https://automationexercise.com/
+2. Go to products section from the top menu
+3. Select the third product shown in the list click on view product button and view its details
+4. Enter a random number in the quantity box to select the quantity of products to be added to the cart
+5. Click on "Add to cart" button, added popup should be displayed
+6. After the popup is displayed click on "Continue shopping" button
+7. Click on the cart link from the top of the menu
+8. Click on "Proceed to checkout" button, login modal is displayed
+9. Click on "Register/Login" link, login page is displayed
+10. Enter email and password on each of the corresponding fields (Use the data from the preconditions)
+11. Go to cart and review the order
+12. Click on "Place order" button, Payment page is displayed
+13. Fill the fields with the corresponding information from the preconditions of the card data
+14. Click on "Pay and Confirm Order" button, Order Placed confirmation is displayed
+15. Click on "Logout" button from the top menu
+
+Expected result: The user is able to add product to the card and placed the order, after order confirmation is displayed you are able to click logout and user is logged out from the page
